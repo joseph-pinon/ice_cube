@@ -8,5 +8,10 @@
   "directory": "/home/joseph/documents/cfd/icecube/build",
   "command": "/usr/bin/gcc   -g -o CMakeFiles/icecube.dir/src/glad.c.o -c /home/joseph/documents/cfd/icecube/src/glad.c",
   "file": "/home/joseph/documents/cfd/icecube/src/glad.c"
+},
+{
+  "directory": "/home/joseph/documents/cfd/icecube/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/icecube.dir/src/shader.cpp.o -c /home/joseph/documents/cfd/icecube/src/shader.cpp",
+  "file": "/home/joseph/documents/cfd/icecube/src/shader.cpp"
 }
 ]

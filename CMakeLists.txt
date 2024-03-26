@@ -7,7 +7,7 @@ find_package(OpenGL REQUIRED)
 include(CTest)
 enable_testing()
 
-add_executable(icecube src/main.cpp src/glad.h src/glad.c)
+add_executable(icecube src/main.cpp src/glad.h src/glad.c src/shader.h src/shader.cpp)
 
 target_link_libraries(icecube glfw OpenGL::GL)
 

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/joseph/documents/cfd/icecube/src/glad.c" "CMakeFiles/icecube.dir/src/glad.c.o" "gcc" "CMakeFiles/icecube.dir/src/glad.c.o.d"
   "/home/joseph/documents/cfd/icecube/src/main.cpp" "CMakeFiles/icecube.dir/src/main.cpp.o" "gcc" "CMakeFiles/icecube.dir/src/main.cpp.o.d"
+  "/home/joseph/documents/cfd/icecube/src/shader.cpp" "CMakeFiles/icecube.dir/src/shader.cpp.o" "gcc" "CMakeFiles/icecube.dir/src/shader.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/icecube.dir/src/glad.c.o.d"
   "CMakeFiles/icecube.dir/src/main.cpp.o"
   "CMakeFiles/icecube.dir/src/main.cpp.o.d"
+  "CMakeFiles/icecube.dir/src/shader.cpp.o"
+  "CMakeFiles/icecube.dir/src/shader.cpp.o.d"
   "icecube"
   "icecube.pdb"
 )
