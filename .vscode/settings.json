@@ -50,5 +50,6 @@
         "typeinfo": "cpp",
         "fstream": "cpp",
         "sstream": "cpp"
-    }
+    },
+    "makefile.makefilePath": "/home/joseph/documents/cfd/icecube/src/imgui/"
 }
