@@ -837,12 +837,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/icecube.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icecube.dir/build.make CMakeFiles/icecube.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icecube.dir/build.make CMakeFiles/icecube.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joseph/documents/cfd/icecube/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target icecube"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joseph/documents/cfd/icecube/build/CMakeFiles --progress-num= "Built target icecube"
 .PHONY : CMakeFiles/icecube.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/icecube.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/documents/cfd/icecube/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/documents/cfd/icecube/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/icecube.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/documents/cfd/icecube/build/CMakeFiles 0
 .PHONY : CMakeFiles/icecube.dir/rule
