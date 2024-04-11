@@ -1,15 +1,23 @@
-cmake_minimum_required(VERSION 3.0.0)
-project(icecube VERSION 0.1.0 LANGUAGES C CXX)
-cmake_policy(SET CMP0072 NEW)
-find_package(OpenGL REQUIRED)
+cmake_minimum_required(VERSION 3.22.1) 
+project(liquidworks VERSION 0.1.0)
 
-include(CTest)
-enable_testing()
+#cmake_policy(SET CMP0072 NEW)
+#find_package(OpenGL REQUIRED)
 
-add_executable(icecube ${PROJECT_SOURCE_DIR})
+set(CORE_PATH ${PROJECT_SOURCE_DIR}/liquidcore)
+set(EDITOR_PATH ${PROJECT_SOURCE_DIR}/liquideditor)
 
-target_link_libraries(icecube glfw OpenGL::GL)
+add_subdirectory(${CORE_PATH})
+add_subdirectory(${EDITOR_PATH})
 
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
+add_executable(${PROJECT_NAME} 
+                ${EDITOR_PATH}/src/liquidworksApp.cpp)
+
+target_link_libraries(liquidworks liquidcore)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CORE_PATH}/liquidcore.h)
+
+#target_link_libraries(liquidworks glfw OpenGL::GL)
+
+#set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+#set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+#include(CPack)

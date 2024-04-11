@@ -1,0 +1,15 @@
+-Entry Point
+-App layer
+-Window layer
+    -Input/Events
+-Renderer
+    -Render API abstraction? 
+    -(OpenGL, Vulcan, DirectX)
+-Debugging/Profiling
+    -Logging system
+-Python scripting
+-Memory system
+-Build system
+    -Hot swappable assets
+    -Build post processing files
+    
